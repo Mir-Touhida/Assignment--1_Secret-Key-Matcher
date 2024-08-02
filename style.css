@@ -1,0 +1,136 @@
+body{
+    padding: 0px;
+    margin: opx;
+}
+.container{
+    height:auto;
+    background-color: lightgray;
+    display: flex;
+}
+
+.part-one{
+    width: 50%;
+    height: 475px;
+    background-color:black;
+    margin: 30px 2px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+/* common area */
+.btn-common{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px; 
+  
+}
+.text-color{
+    color: white;
+}
+/* button styles */
+.secret-key-click{
+    background-color:lightskyblue;
+    margin-bottom: 10px; 
+    
+}
+.secret-key{
+   
+    background-color:gray;
+}
+/* Part two */
+.part-two{
+    width: 50%;
+    height: 475px;
+    background-color:black;
+    margin: 30px 20px 30px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.pin{
+display: flex;
+justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.btn-display{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px; 
+    margin-left: 20px; 
+    background-color:gray;
+}
+.input-field{
+    color: white;
+    height: 40px;
+    width: 70px;
+    background-color:gray;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keypad{
+margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Section */
+
+/* for Medium devices */
+
+@media screen and (max-width: 768px) {
+    .pin{
+        flex-direction: column;
+        margin-top: 20px;
+        
+        }
+        .btn-display{
+            
+            width: 214px;
+            
+            margin-left: 0px; 
+        }
+    .keypad{
+      
+        grid-template-columns: 1fr 1fr 1fr;
+
+        }
+        
+        }
+
+        /* for small devices */
+@media screen and (max-width: 576px) {
+    .pin{
+        flex-direction: column;
+        margin-top: 20px;
+        
+        }
+        .btn-display{
+            height: 30px;
+            width: 140px;
+            
+            margin-left: 0px; 
+            
+        }
+    .keypad{
+      
+        grid-template-columns: 1fr 1fr;
+        }
+        
+        }
+
+
+
+
