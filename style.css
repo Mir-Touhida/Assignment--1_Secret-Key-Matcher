@@ -67,6 +67,10 @@ justify-content: center;
     border-radius: 5px; 
     margin-left: 20px; 
     background-color:gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input-field{
     color: white;
@@ -97,6 +101,9 @@ margin-top: 10px;
    
     background-color: rgb(181, 74, 74);
 }
+#message {
+    color: green;
+  }
 
 
 /* Responsive Section */
@@ -125,6 +132,26 @@ margin-top: 10px;
 
         /* for small devices */
 @media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
+    .part-one{
+        width: 80%;
+
+        background-color: black;
+        margin-left: 50px;
+
+        
+     
+    }
+    .part-two{
+        width: 80%;
+
+        background-color:black;
+        margin-left: 5git0px;
+       
+       
+    }
     .pin{
         flex-direction: column;
         margin-top: 20px;
