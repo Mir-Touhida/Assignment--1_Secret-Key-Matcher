@@ -12,21 +12,21 @@
     <div class="container">
         <div class="part-one">
             <div>
-                <button class="btn-common secret-key-click">Generate Scret Key</button>
+                <button class="btn-common secret-key-click" id="secretKey">Generate Scret Key</button>
             </div>
             <div>
-                <button class="btn-common secret-key "></button>
+                <button class="btn-common secret-key " id="displayKey"></button>
             </div>
         </div>
         <div class="part-two">
             <div>
                 <div class="pin">
                     <div class="text-color">Enter PIN:</div>
-                    <div><input class="btn-display" type="text"></div>
+                    <div><input class="btn-display" type="text" id="inp" readonly=""></div>
                 </div>
                 
                 <div class="keypad">
-                    <div class="input-field one">1</div>
+                    <div class="input-field" id="one">1</div>
                     <div class="input-field two">2</div>
                     <div class="input-field three">3</div>
                     <div class="input-field four">4</div>
