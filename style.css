@@ -85,6 +85,19 @@ margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
+.b_space{
+   
+    background-color: lightcoral;
+}
+.submit{
+   
+    background-color: green
+}
+.clear{
+   
+    background-color: rgb(181, 74, 74);
+}
+
 
 /* Responsive Section */
 
