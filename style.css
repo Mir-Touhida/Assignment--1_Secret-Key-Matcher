@@ -7,7 +7,7 @@ body{
     background-color: lightgray;
     display: flex;
 }
-
+/* Part one Generate Scret Key section */
 .part-one{
     width: 50%;
     height: 475px;
@@ -41,7 +41,7 @@ body{
    
     background-color:gray;
 }
-/* Part two */
+/* Part two Keypad Display section */
 .part-two{
     width: 50%;
     height: 475px;
@@ -131,6 +131,7 @@ margin-top: 10px;
         }
 
         /* for small devices */
+        
 @media screen and (max-width: 576px) {
     .container{
         flex-direction: column;
